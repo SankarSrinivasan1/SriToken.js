@@ -75,6 +75,11 @@ That's it! You have successfully installed the `SriToken.js` library and can beg
 
 - Balance retrieval: Explain how to retrieve the token balance of user accounts.
 
+
+
+
+********* DELETE FOLLOWING 
+
 ### API Reference
 
    - Provide a comprehensive reference guide for the SriToken.js library, including all available methods and their parameters.
@@ -103,6 +108,5 @@ That's it! You have successfully installed the `SriToken.js` library and can beg
 
    - Express excitement for the future development of SriToken.js and its potential impact on decentralized application development.
 
-   - Thank readers for their interest and invite them to explore the library further.
+   - Thank readers for their interest and invite them to explore the library further
 
-By following this outline, you can create a comprehensive blog post that introduces SriToken.js, highlights its features, provides usage examples, and encourages developers to leverage the library for token creation and management on Ethereum and EVM networks.
