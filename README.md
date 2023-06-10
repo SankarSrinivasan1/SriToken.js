@@ -64,17 +64,16 @@ That's it! You have successfully installed the `SriToken.js` library and can beg
 
 ### Usage Examples
 
-Demonstrate practical examples of using SriToken.js for various token-related operations:
 
-     - Creating tokens: Walk through the process of generating tokens for users.
+- Creating tokens: Walk through the process of generating tokens for users.
 
-     - User signup: Show how to register users and distribute tokens upon signup.
+- User signup: Show how to register users and distribute tokens upon signup.
 
-     - Rewarding activities: Illustrate how to reward users with tokens for specific activities.
+- Rewarding activities: Illustrate how to reward users with tokens for specific activities.
 
-     - Token transfers: Guide users on securely transferring tokens between accounts.
+- Token transfers: Guide users on securely transferring tokens between accounts.
 
-     - Balance retrieval: Explain how to retrieve the token balance of user accounts.
+- Balance retrieval: Explain how to retrieve the token balance of user accounts.
 
 ### API Reference
 
