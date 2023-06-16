@@ -225,3 +225,18 @@ If you're looking for an alternative to Infura for connecting to the Ethereum ne
 Each provider may have its own pricing plans, features, and limitations. It's important to evaluate and choose the provider that best fits your specific requirements in terms of reliability, performance, cost, and ease of integration.
 
 Before making a decision, consider factors such as network coverage, available APIs, documentation, community support, and the provider's reputation in the blockchain development community.
+
+****
+In this updated code, we've imported the Web3 library, initialized a web3 instance, and created a contract instance using the token contract's ABI (replace TOKEN_ABI with the actual ABI of your token contract). We've also made changes to the transferTokens function to use the web3.eth.sendSignedTransaction method to transfer tokens and handle transaction signing.
+
+Make sure to replace `'Make sure to replace `'YOUR_INFURA_PROJECT_ID'` with your actual Infura project ID and `'YOUR_PRIVATE_KEY'` with the private key of your web app's wallet address.
+
+To fetch all user addresses, you'll need to implement the logic to retrieve the addresses from your web app's database or user management system. Modify the `getAllUserAddresses` function accordingly.
+
+The `sendEmailNotification` function is a placeholder for sending email notifications to users. You can integrate it with your preferred email service or library to send customized email notifications.
+
+Remember to update the `tokenContractAddress`, `evmNetworkName`, and `webAppWalletAddress` parameters when creating an instance of the `SriToken` class with the appropriate values.
+
+With this updated code, you should be able to interact with your token contract using the web3.js library and implement the desired token features in your web app.
+
+Note: This code assumes you have the necessary dependencies installed and have set up the web3 provider and connectivity to the desired Ethereum network.
