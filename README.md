@@ -141,7 +141,75 @@ Happy tokenizing!
 
 
 
+Sure! Here are the installation instructions for SriToken.js:
 
+1. Prerequisites:
+
+   - Node.js: Ensure that you have Node.js installed on your machine. You can download it from the official Node.js website (https://nodejs.org) and follow the installation instructions for your operating system.
+
+2. SriToken.js Package Installation:
+
+   - Create a new directory for your project (if you haven't already) and navigate into it using the command line.
+
+   - Initialize a new Node.js project by running the following command:
+
+     ```shell
+
+     npm init -y
+
+     ```
+
+   - Install the required dependencies, including web3.js:
+
+     ```shell
+
+     npm install web3
+
+     ```
+
+3. SriToken.js Integration:
+
+   - Create a new file named `SriToken.js` in your project directory.
+
+   - Copy the SriToken.js code (with the web3.js implementation) into the `SriToken.js` file.
+
+   - Modify the code to include your specific token contract address, EVM network name, and web app wallet address.
+
+   - Save the file.
+
+4. Import and Use SriToken.js in your Web App:
+
+   - In your web app project, import the SriToken.js library using the following code:
+
+     ```javascript
+
+     const SriToken = require('./SriToken');
+
+     ```
+
+   - Create an instance of the `SriToken` class by providing the necessary parameters:
+
+     ```javascript
+
+     const tokenContractAddress = '0xabcdef1234567890'; // Replace with your token contract address
+
+     const evmNetworkName = 'mainnet'; // Replace with your EVM network name
+
+     const webAppWalletAddress = '0xwebappwallet'; // Replace with your web app's wallet address
+
+     
+
+     const sriToken = new SriToken(tokenContractAddress, evmNetworkName, webAppWalletAddress);
+
+     ```
+
+   - Use the `sriToken` instance to issue bonuses, send tokens, and perform other token-related operations in your web app.
+
+Remember to configure your web3 provider to connect to the desired Ethereum network and ensure that you have the necessary permissions and access to interact with the token contract.
+
+Feel free to integrate and customize the SriToken.js library based on your specific requirements, adding additional functionality or modifying existing features as needed.
+
+Note: The provided instructions assume a basic Node.js project structure. You may need to adapt them if you are using a different development framework or environment.
 
 
 
