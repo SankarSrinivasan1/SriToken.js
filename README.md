@@ -13,10 +13,10 @@
 ## Installation
 To install SriToken.js and its dependencies, follow these steps:
 
-#### 1. Prerequisites:
+#### Prerequisites
 - Node.js: Ensure that you have Node.js installed on your machine. You can download it from the official Node.js website (https://nodejs.org) and follow the installation instructions for your operating system.
 
-#### 2. SriToken.js Package Installation:
+#### SriToken.js Package Installation
 - Create a new directory for your project (if you haven't already) and navigate into it using the command line.
 - Initialize a new Node.js project by running the following command:
 ```shell
@@ -27,35 +27,17 @@ To install SriToken.js and its dependencies, follow these steps:
  npm install web3
 ```
 
-#### 3. SriToken.js Integration:
+#### SriToken.js Integration
 - Create a new file named `SriToken.js` in your project directory.
 - Copy the SriToken.js code (with the web3.js implementation) into the `SriToken.js` file.
 - Modify the code to include your specific token contract address, EVM network name, and web app wallet address.
 - Save the file.
 
-#### 4. Import and Use SriToken.js in your Web App:
-- In your web app project, import the SriToken.js library using the following code:
-```javascript
-   const SriToken = require('./SriToken');
-```
-- Create an instance of the `SriToken` class by providing the necessary parameters:
-```javascript
-   const tokenContractAddress = '0xabcdef1234567890'; // Replace with your token contract address
-   const evmNetworkName = 'mainnet'; // Replace with your EVM network name
-   const webAppWalletAddress = '0xwebappwallet'; // Replace with your web app's wallet address
-   const sriToken = new SriToken(tokenContractAddress, evmNetworkName, webAppWalletAddress);
-```
-- Use the `sriToken` instance to issue bonuses, send tokens, and perform other token-related operations in your web app.
-
-Remember to configure your web3 provider to connect to the desired Ethereum network and ensure that you have the necessary permissions and access to interact  with the token contract. Feel free to integrate and customize the SriToken.js library based on your specific requirements, adding additional functionality or modifying existing features as needed.
-
-Note: The provided instructions assume a basic Node.js project structure. You may need to adapt them if you are using a different development framework or environment.
-
 ## Usage
 To use SriToken.js in your web application, follow these steps:
 1. Import SriToken.js into your project:
    ```javascript
-   const SriToken = require('path/to/SriToken.js');
+   const SriToken = require('path/SriToken.js');
    ```
 
 2. Create an instance of the `SriToken` class, providing the necessary parameters:
@@ -92,7 +74,7 @@ To use SriToken.js in your web application, follow these steps:
 
 In this code, we've imported the Web3 library, initialized a web3 instance, and created a contract instance using the token contract's ABI (replace TOKEN_ABI with the actual ABI of your token contract). We've also made changes to the transferTokens function to use the web3.eth.sendSignedTransaction method to transfer tokens and handle transaction signing.
 
-Make sure to replace `'Make sure to replace `'YOUR_INFURA_PROJECT_ID'` with your actual Infura project ID and `'YOUR_PRIVATE_KEY'` with the private key of your web app's wallet address.
+Make sure to replace `'YOUR_INFURA_PROJECT_ID'` with your actual Infura project ID and `'YOUR_PRIVATE_KEY'` with the private key of your web app's wallet address.
 
 To fetch all user addresses, you'll need to implement the logic to retrieve the addresses from your web app's database or user management system. Modify the `getAllUserAddresses` function accordingly.
 
@@ -109,15 +91,6 @@ Contributions to SriToken.js are welcome! If you encounter any issues, have sugg
 ## License
 This project is licensed under the [MIT License](https://opensource.org/licenses/MIT). Feel free to use, modify, and distribute the library as per the terms of the MIT License.
 
-## Disclaimer
-Please note that SriToken.js is provided as-is without any warranty. The library's usage and integration with your web application are at your own risk. It is recommended to thoroughly test and review the code before deploying it in a production environment. The authors and contributors of SriToken.js shall not be held liable for any damages or losses arising from the use of this library.
-
-SriToken.js empowers web developers to effortlessly incorporate EVM tokens into their web applications. With its user-friendly interface and convenient features, you can enhance user engagement, automate token distributions, and incentivize user actions within your web app. Get started with SriToken.js today and unlock the potential of tokenization in your web application!
-
-If you have any questions or need assistance, feel free to reach out Sankar Srinivasan petra.srini@gmail.com
-
-Happy tokenizing!
-
 ## Tips
 If you're looking for an alternative to Infura for connecting to the Ethereum network, you can consider using other Ethereum node providers. Here are a few popular alternatives:
 1. Alchemy (https://www.alchemy.com/): Alchemy offers a powerful and reliable infrastructure for Ethereum API services. They provide developer-friendly features and robust node infrastructure.
@@ -127,3 +100,11 @@ If you're looking for an alternative to Infura for connecting to the Ethereum ne
 
 Each provider may have its own free and pricing plans, features, and limitations. It's important to evaluate and choose the provider that best fits your specific requirements in terms of reliability, performance, cost, and ease of integration.
 
+## Disclaimer
+Please note that SriToken.js is provided as-is without any warranty. The library's usage and integration with your web application are at your own risk. It is recommended to thoroughly test and review the code before deploying it in a production environment. The authors and contributors of SriToken.js shall not be held liable for any damages or losses arising from the use of this library.
+
+SriToken.js empowers web developers to effortlessly incorporate EVM tokens into their web applications. With its user-friendly interface and convenient features, you can enhance user engagement, automate token distributions, and incentivize user actions within your web app. Get started with SriToken.js today and unlock the potential of tokenization in your web application!
+
+If you have any questions or need assistance, feel free to reach out Sankar Srinivasan petra.srini@gmail.com
+
+Happy tokenizing!
