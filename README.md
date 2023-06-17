@@ -68,6 +68,7 @@ To use SriToken.js in your web application, follow these steps:
    ```
 
 4. Customize the library according to your specific requirements, such as modifying bonus amounts or adding additional functionality.
+5. Implement logic to fetch all user wallet addresses and email sending.
 
 **Note:** Ensure that you have the necessary permissions and access to interact with the token contract on the specified EVM network. Also, make sure to configure your web3 provider to connect to the desired Ethereum network.
 *****
