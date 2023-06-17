@@ -1,5 +1,5 @@
 # SriToken.js
-### SriToken.js is a JavaScript library that simplifies the integration of EVM (Ethereum Virtual Machine) tokens into web applications. It provides a convenient interface to interact with token contracts, issue signup bonuses, automate token transfers, and enhance user engagement within your web app.
+### SriToken.js is a JavaScript library that simplifies the integration of EVM (Ethereum Virtual Machine) tokens into web applications. It provides a convenient interface to interact with token contracts, issue signup bonuses, daily login bonuses, automate token transfers, and enhance user engagement within your web app.
 
 ## Features
 - Seamless integration of EVM tokens into web applications
